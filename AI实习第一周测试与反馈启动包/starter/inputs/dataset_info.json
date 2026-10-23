@@ -1,0 +1,35 @@
+{
+  "synthetic_only": true,
+  "schema_version": "1.0",
+  "seed": 1022,
+  "description": "Invented assessment schema. Not a decoder for real railway .dat files.",
+  "window_start": "2026-10-22T08:00:00.000+08:00",
+  "window_end_exclusive": "2026-10-22T08:00:13.000+08:00",
+  "grid_ms": 200,
+  "status_period_ms": 1000,
+  "lte_period_ms": 2000,
+  "file_read_order": [
+    "status.jsonl",
+    "lte.jsonl"
+  ],
+  "groups": [
+    {
+      "vehicle_id": "SYN-3169",
+      "section": "A",
+      "network": "A",
+      "role": "main"
+    },
+    {
+      "vehicle_id": "SYN-7752",
+      "section": "A",
+      "network": "A",
+      "role": "slave"
+    },
+    {
+      "vehicle_id": "SYN-3169",
+      "section": "B",
+      "network": "B",
+      "role": "main"
+    }
+  ]
+}
